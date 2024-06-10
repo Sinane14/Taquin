@@ -122,7 +122,7 @@ namespace Picture_Puzzle // Définit un espace de noms appelé Picture_Puzzle
             int count = 0, index;
 
             foreach (Button btn in panel1.Controls.OfType<Button>()) // Parcourt tous les boutons dans le panel1
-            {
+            { //commentaire
                 index = (btn.Location.Y / 90) * 3 + btn.Location.X / 90; // Calcule l'index de l'image correspondante
 
                 if (images[index] == btn.Image) // Vérifie si l'image du bouton correspond à l'image attendue
